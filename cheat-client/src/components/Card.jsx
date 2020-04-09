@@ -1,5 +1,6 @@
 import React from 'react';
 
+//represents and displays a single card
 class Card extends React.Component {
     render = () => {
         return ( 
