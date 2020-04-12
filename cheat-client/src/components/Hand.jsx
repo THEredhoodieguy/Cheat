@@ -10,6 +10,7 @@ class Hand extends React.Component {
                 <div className="player-buttons">
                     <button>Play Cards</button>
                     <button>Call</button>
+                    <button>Pass</button>
                 </div>
                 <div className="playerHand">
                     {this.props.cards?.map((value, index) => {
