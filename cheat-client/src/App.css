@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+  background-color: #25853B;
 }
 
 .app {
@@ -12,12 +13,10 @@ body {
 
 .header {
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 25px;
   padding-bottom: 25px;
   height: 100px;
-  background-color: cadetblue;
+  background-color: #66101f;
   display: flex;
 }
 
@@ -31,7 +30,7 @@ body {
   padding-right: 5px;
   padding-top: 30px;
 
-  background-color: coral;
+  background-color: #e07a5f;
   border-radius: 7px;
 
   color: antiquewhite;
@@ -43,14 +42,31 @@ body {
 .actionBanner {
   width: 100%;
   height: 120px;
-  text-align: center;
-  padding-top: 40px;
-  font-size: larger;
-  color: antiquewhite;
-  background-color: cornflowerblue;
+  /* display: flex;
+  align-content: center; */
 }
 
-.cards {
+.actionBannerContent {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: larger;
+  color: #070707;
+  /* background-color: #afd0bf; */
+  background-color: #9dc5bb;
+  border-radius: 10px;
+}
+
+.hand {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.playerHand {
   margin-top: 10px;
   display: flex;
 }
@@ -63,6 +79,7 @@ body {
   padding: 3px;
   border-radius: 5px;
   box-shadow: 0 0 2pt black;
+  background-color: #fffffa;
 }
 
 .top-left {

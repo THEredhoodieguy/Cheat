@@ -11,7 +11,7 @@ class Hand extends React.Component {
                     <button>Play Cards</button>
                     <button>Call</button>
                 </div>
-                <div className="cards">
+                <div className="playerHand">
                     {this.props.cards?.map((value, index) => {
                         return <Card key={index} suit={value.suit} value={value.value} />
                     })}
